@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F07FCDEE244CD55B00D82F69 /* IdadeCaes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdadeCaes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07FCDEE244CD55B00D82F69 /* Idade Cães.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Idade Cães.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07FCDF1244CD55B00D82F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F07FCDF3244CD55B00D82F69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F07FCDF5244CD55B00D82F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		F07FCDEF244CD55B00D82F69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F07FCDEE244CD55B00D82F69 /* IdadeCaes.app */,
+				F07FCDEE244CD55B00D82F69 /* Idade Cães.app */,
 				F07FCE04244CD55C00D82F69 /* IdadeCaesTests.xctest */,
 				F07FCE0F244CD55C00D82F69 /* IdadeCaesUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = IdadeCaes;
 			productName = IdadeCaes;
-			productReference = F07FCDEE244CD55B00D82F69 /* IdadeCaes.app */;
+			productReference = F07FCDEE244CD55B00D82F69 /* Idade Cães.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F07FCE03244CD55C00D82F69 /* IdadeCaesTests */ = {
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.aldoig.IdadeCaes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Idade Cães";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.aldoig.IdadeCaes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Idade Cães";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
