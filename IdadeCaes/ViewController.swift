@@ -10,11 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var inputIdade: UITextField!
+    @IBOutlet weak var labelIdade: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func descobrirIdade(_ sender: Any) {
+        
+        let idadeDog = Int(inputIdade.text ?? "0") ?? 0;
+        let idadeHum = idadeDog * 7;
+        
+        labelIdade.text = "A Idade humana do seu cãozinho: \(idadeHum) anos "
+        
+        
+    }
+    
+    
 }
 
